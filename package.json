@@ -1,0 +1,20 @@
+{
+  "name": "front_circle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/app.scss css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@radial-color-picker/vue-color-picker": "^2.1.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "vue": "^2.6.10",
+    "vue-color": "^2.7.0"
+  }
+}
